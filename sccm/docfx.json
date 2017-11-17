@@ -1,0 +1,44 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md", "**/**.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "sccm/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/media/**", 
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif", 
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "sccm/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "breadcrumb_path": "/enterprise-mobility-security/toc.json",
+      "product_feedback_displaytext" : "Configuration Manager Feedback",
+      "product_feedback_url": "https://configurationmanager.uservoice.com/",
+      "searchScope": ["ConfigMgr"]
+      },
+    "fileMetadata": {},
+    "template": [
+      "docs.html"
+    ],
+    "dest": "sccm"
+  }
+}
